@@ -1,0 +1,33 @@
+.nav-items, .tab-items {
+    background-color: #e8edee;
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+.nav-items {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    background-color: lightgray;
+}
+
+.tab-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.tab-item {
+    background-color: lightgray;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 1rem;
+}
+
+.active {
+    background-color: darkgray;
+}
